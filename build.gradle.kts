@@ -1,9 +1,10 @@
 plugins {
     kotlin("jvm") version "2.0.21"
+    `maven-publish`
 }
 
 group = "io.github.iprimavera"
-version = "1.0-SNAPSHOT"
+version = "0.1.0"
 
 repositories {
     mavenCentral()
@@ -18,4 +19,12 @@ tasks.test {
 }
 kotlin {
     jvmToolchain(21)
+}
+
+publishing {
+    publications {
+        create<MavenPublication>("maven") {
+            from(components["java"])
+        }
+    }
 }
