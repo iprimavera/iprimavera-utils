@@ -1,4 +1,4 @@
-package io.github.iprimavera.strings
+package com.github.iprimavera
 
 fun Int.digits(): List<Int> = this.toString().map { it.digitToInt() }
 

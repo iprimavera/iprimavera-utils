@@ -46,6 +46,6 @@ repositories {
     maven("https://jitpack.io")
 }
 dependencies {
-    implementation("com.github.iprimavera:kotlin-qol:v0.1.0")
+    implementation("com.github.iprimavera:iprimavera-utils:v0.1.0")
 }
 ```

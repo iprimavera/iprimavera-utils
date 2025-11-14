@@ -2,7 +2,7 @@ plugins {
     kotlin("jvm") version "2.0.21"
 }
 
-group = "io.github.iprimavera"
+group = "com.github.iprimavera"
 version = "0.1.0"
 
 repositories {

@@ -1,4 +1,4 @@
-package io.github.iprimavera.strings
+package com.github.iprimavera
 
 import kotlin.test.Test
 import kotlin.test.assertTrue

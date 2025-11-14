@@ -1,4 +1,4 @@
-package io.github.iprimavera.strings
+package com.github.iprimavera
 
 fun String.isInt(): Boolean = this.toIntOrNull() != null
 
