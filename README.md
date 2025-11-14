@@ -36,3 +36,16 @@
 
 * **`snap(step)`**
   Snaps the value to the nearest multiple of the given step.
+
+---
+
+# How to use it
+
+```kotlin
+repositories {
+    maven("https://jitpack.io")
+}
+dependencies {
+    implementation("com.github.iprimavera:kotlin-qol:v0.1.0")
+}
+```
