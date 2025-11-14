@@ -1,9 +1,7 @@
 package io.github.iprimavera.strings
 
-fun String.isInt(): Boolean =
-    this.toIntOrNull() != null
+fun String.isInt(): Boolean = this.toIntOrNull() != null
 
-fun String.normalizeSpaces(): String =
-    this.trim().replace(Regex("\\s+"), " ")
+fun String.isDouble(): Boolean = this.toDoubleOrNull() != null
 
-//TODO IMPORTARLA A OTRO LADO y publicar
+fun String.normalizeSpaces(): String = this.trim().replace(Regex("\\s+"), " ")
