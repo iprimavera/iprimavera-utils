@@ -41,6 +41,8 @@
 
 ## How to use it
 
+You need to add this lines in your `build.gradle.kts`
+
 ```kotlin
 repositories {
     maven("https://jitpack.io")
