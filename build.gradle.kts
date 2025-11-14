@@ -1,6 +1,5 @@
 plugins {
     kotlin("jvm") version "2.0.21"
-    `maven-publish`
 }
 
 group = "io.github.iprimavera"
@@ -17,14 +16,7 @@ dependencies {
 tasks.test {
     useJUnitPlatform()
 }
+
 kotlin {
     jvmToolchain(21)
-}
-
-publishing {
-    publications {
-        create<MavenPublication>("maven") {
-            from(components["java"])
-        }
-    }
 }
